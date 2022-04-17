@@ -71,7 +71,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
-    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-env": "^7.16.0",
     "@babel/preset-typescript": "^7.12.7",
     "@babel/runtime": "^7.12.5",
     "@testing-library/jest-native": "^4.0.4",
@@ -149,5 +149,8 @@
         "jsSrcsDir": "./src/fabric"
       }
     ]
+  },
+  "resolutions": {
+    "regenerate-unicode-properties": "10.0.1"
   }
 }
